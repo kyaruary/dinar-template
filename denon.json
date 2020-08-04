@@ -1,0 +1,17 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "dev": {
+      "cmd": "deno run -A -c tsconfig.json --unstable src/app.ts",
+      "desc": "run application"
+    },
+    "start": {
+      "cmd": "deno run -A -c tsconfig.json --unstable src/app.ts",
+      "desc": "run my app.ts file"
+    },
+    "reload": {
+      "cmd": "deno run -A -c tsconfig.json --unstable --reload src/app.ts",
+      "desc": "reload"
+    }
+  }
+}
